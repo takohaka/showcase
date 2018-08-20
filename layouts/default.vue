@@ -2,8 +2,8 @@
   <div class="container">
     <header>
       header
-      <nuxt-link to="/showcase/sin">sin</nuxt-link>
-      <nuxt-link to="/showcase/wave">wave</nuxt-link>
+      <nuxt-link to="/">top</nuxt-link>
+      <nuxt-link to="/wave">wave</nuxt-link>
     </header>
     <nuxt />
     <footer>
