@@ -18,5 +18,8 @@ export default {
   ],
   css: [
     'reset-css'
-  ]
+  ],
+  generate: {
+    dir: 'docs'
+  }
 }
