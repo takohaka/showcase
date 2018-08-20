@@ -10,13 +10,13 @@
       <section>
         <p>wave</p>
       </section>
-      <section v-parallax="{start: 0, handler: handler}">
+      <section v-parallax="{start: 600, handler: handler}">
           <div class="item" :class="{show}"></div>
           <div class="item" :class="{show}"></div>
           <div class="item" :class="{show}"></div>
           <div class="item" :class="{show}"></div>
       </section>
-      <section v-parallax="{start: 200, handler: handler2}">
+      <section v-parallax="{start: 600, handler: handler2}">
           <div class="item" :class="{show: show2}"></div>
           <div class="item" :class="{show: show2}"></div>
           <div class="item" :class="{show: show2}"></div>
