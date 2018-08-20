@@ -24,5 +24,8 @@ export default {
   },
   router: {
     base: process.env.NODE_ENV === 'production' ? '/showcase/' : '/'
+  },
+  loading: {
+    color: 'rgba(0, 120, 240, 0.5)',
   }
 }
