@@ -21,5 +21,8 @@ export default {
   ],
   generate: {
     dir: 'docs'
+  },
+  router: {
+    base: process.env.NODE_ENV === 'production' ? '/showcase/' : '/'
   }
 }
