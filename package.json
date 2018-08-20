@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nuxt"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,22 @@
     "url": "https://github.com/takohaka/effect/issues"
   },
   "homepage": "https://github.com/takohaka/effect#readme",
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0"
+    }
+  },
   "dependencies": {
-    "nuxt-edge": "^2.0.0-25576553.1074097"
+    "gsap": "^2.0.1",
+    "nuxt-edge": "^2.0.0-25576553.1074097",
+    "nuxt-property-decorator": "^1.2.0",
+    "reset-css": "^4.0.1",
+    "tween-functions": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.7.1",
+    "@types/vue": "^2.0.0",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1"
   }
 }
