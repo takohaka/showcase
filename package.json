@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "gsap": "^2.0.1",
-    "nuxt-edge": "^2.0.0-25576553.1074097",
+    "nuxt-edge": "^2.0.0-25619719.2dd2f2a",
     "nuxt-property-decorator": "^1.2.0",
     "reset-css": "^4.0.1",
     "tween-functions": "^1.2.0"
